@@ -1,0 +1,40 @@
+.slider img{
+    height: 480px;
+}
+
+body{
+    /* background-color: rgb(90, 87, 87); */
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: orange;
+    padding:39px 0px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size:44px !important;
+}
+
+#about{
+    margin: 35px 0;
+}
+.card{
+    overflow: hidden;
+    transition: .6s ease-in-out;
+}
+.card img{
+    width: 100%;
+    height:160px;
+    transition: .6s ease-in-out;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+footer i{
+    color: rgb(77, 80, 74);
+    font-size: 39px;
+    padding: 13px 0;
+}
